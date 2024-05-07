@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(161, 158, 158, 0.295);
+}
+.form-label{
+    color: rgba(243, 8, 8, 0.973);
+}
+.form-control{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.btn-primary{
+    color: black;
+    border: 2px;
+    border-radius: 20px;
+    background-color: rgba(10, 230, 157, 0.507);
+    border-color: darkblue;
+    box-shadow: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
