@@ -1,8 +1,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgba(175, 185, 228, 0.377),rgba(255, 126, 126, 0.753));
 }
 header {
-    background: #BBBBBB;
+    background:linear-gradient(rgba(136, 179, 243, 0.726),rgba(108, 83, 219, 0.486));
     padding: 20px 0;
 }
 .caja {
@@ -25,11 +26,63 @@ nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
 }
 
 nav a:hover {
     color: #df9746f5;
     text-decoration: underline;
+}
+
+/* Aqui inicia el css para nuestra pagina home*/
+
+.tienda {
+    width: 100%;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    margin: 4px 0 1em;
+    clear: left;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.carrito{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(rgba(247, 164, 164, 0.411),rgba(161, 166, 204, 0.466));
+}
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal {
+    padding: 3em 0;
+    background: linear-gradient(rgb(235, 197, 197),rgba(177, 226, 248, 0.514));
+    width: 940px;
+    margin: 0 auto;
 }
