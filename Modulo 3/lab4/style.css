@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(60, 36, 83, 0.74);
+}
+.container{
+    color: rgb(205, 227, 241);
+}
+
+.form-control{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px;
+}
+.btn{
+    background-color: rgba(133, 9, 250, 0.658);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px;
+
+}
+
