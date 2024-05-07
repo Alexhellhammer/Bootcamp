@@ -1,0 +1,84 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Estilos para el header */
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo1 img {
+    max-width: 80px; 
+    height: auto;
+    margin-top: 20px; 
+}
+
+.title {
+    text-align: center;
+}
+
+/* Resto de tu CSS aquí */
+
+
+/* Estilos para el contenido */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section, article {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section img, article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    border: 1px solid black; 
+    border-radius: 5px; 
+    margin: 25px;
+    padding: 10px; 
+    background-color: #c8b5b579; 
+    font-family: Arial, sans-serif; 
+}
+
+iframe {
+    border-radius: 5px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: rgba(253, 11, 11, 0.656);
+    color: white;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #17131374;
+    padding: 10px;
+}
