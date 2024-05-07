@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+h1{
+    text-align: center;
+    color: rgba(5, 248, 248, 0.733);
+}
+.mb-3{
+    color:  rgba(5, 248, 248, 0.733);
+    border: 2px;
+}
