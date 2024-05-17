@@ -193,6 +193,34 @@ footer{
     font-weight: bold;
     margin-top: 10px;
 }
+/* Estilos básicos para el carrito de compras */
+#carrito {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #lista-carrito {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #lista-carrito li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  #lista-carrito li:last-child {
+    border-bottom: none;
+  }
+  
+  #total-carrito {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
 
 /*css contact*/
 
