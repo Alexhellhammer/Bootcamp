@@ -1,0 +1,11 @@
+# Ignorar archivos de configuración local
+config.js
+.env
+
+# Ignorar directorios de dependencias de paquetes
+node_modules/
+
+# Ignorar archivos de construcción o archivos generados
+/build
+/dist
+/.next
